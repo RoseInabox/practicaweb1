@@ -10,11 +10,11 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
 
  body {
             display: flex;
-            justify-content: center; /* Centra horizontalmente */
-            align-items: center; /* Centra verticalmente */
-            height: 100vh; /* Establece la altura del cuerpo como 100% de la ventana de visualización */
-            margin: 0; /* Elimina los márgenes predeterminados del cuerpo */
-            color: coral; /* Color del texto */
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: coral; 
         }
         
 #video-background {

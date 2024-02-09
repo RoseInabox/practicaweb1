@@ -45,18 +45,18 @@ header {
 
 .menu-navegacion li {
     display: inline-block;
-    margin-left: 20px; /* Espacio entre elementos del menú */
+    margin-left: 20px; 
 }
 
 .menu-navegacion li:first-child {
-    margin-left: 0; /* Elimina el margen izquierdo del primer elemento */
+    margin-left: 0; 
 }
 
 .menu-navegacion a {
     text-decoration: none;
-    color: #333; /* Color del texto del menú */
-    font-weight: bold; /* Texto en negrita */
-    font-size: 16px; /* Tamaño de fuente */
+    color: #333;
+    font-weight: bold; 
+    font-size: 16px;
 }
 
      
@@ -78,7 +78,7 @@ figure img {
 figcaption {
     color: white;
     text-align: center;
-    font-size: 14px; /* Ajusta el tamaño de la descripción de la imagen */
+    font-size: 14px;
 }
 .pjustifi{
      color: wheat;
@@ -105,15 +105,15 @@ figcaption {
     top: 160px;
     bottom: 25px;
     width: 10%;
-    background-image: url('https://images.contentstack.io/v3/assets/blt370612131b6e0756/blt02dd32b665c25036/5f4defe8b553152466d1b21a/Homepage_World_1.jpg'); /* Ruta de la imagen de fondo */
+    background-image: url('https://images.contentstack.io/v3/assets/blt370612131b6e0756/blt02dd32b665c25036/5f4defe8b553152466d1b21a/Homepage_World_1.jpg');
     background-color: rgba(0, 0, 0, 0.7); 
     background-blend-mode: overlay;
     background-position-x: 40%;
 }
 
 .contenido {
-    position: relative; /* Para asegurar que el texto esté posicionado dentro del aside */
-    z-index: 1; /* Coloca el texto por encima de la imagen de fondo */
+    position: relative; 
+    z-index: 1; 
 }
 
 
