@@ -1,0 +1,200 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jan 26, 2024, 3:20:44 PM
+    Author     : joses
+*/
+body {
+    font-family: 'Arial', sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color:#000;
+    color: #fff; 
+    
+}
+
+
+header {
+    font-family: 'Monaco', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: coral; 
+    position: fixed;
+    top: 0;
+    height: 160px;
+    width: 100%;
+    background-image: url('https://fixthephoto.com/images/content/stone-texture-images-11613998243.jpg');
+    background-size: cover;
+    background-position-y:40%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+.logo img {
+    width: 220px; /* Ancho del logo */
+    height: 100px; /* Altura automática para mantener la proporción */
+}
+
+.menu-navegacion ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-navegacion li {
+    display: inline-block;
+    margin-left: 20px; /* Espacio entre elementos del menú */
+}
+
+.menu-navegacion li:first-child {
+    margin-left: 0; /* Elimina el margen izquierdo del primer elemento */
+}
+
+.menu-navegacion a {
+    text-decoration: none;
+    color: #333; /* Color del texto del menú */
+    font-weight: bold; /* Texto en negrita */
+    font-size: 16px; /* Tamaño de fuente */
+}
+
+     
+.ArticuloHorizontal {
+    position: fixed;
+    display: flex; 
+    justify-content: space-between; 
+}
+
+figure {
+    width: 20%; 
+    text-align: center; 
+}
+
+figure img {
+    max-width: 100%;
+}
+
+figcaption {
+    color: white;
+    text-align: center;
+    font-size: 14px; /* Ajusta el tamaño de la descripción de la imagen */
+}
+.pjustifi{
+     color: wheat;
+        text-align: justify;
+
+}
+
+#backgroundimg{
+      background-size: cover;
+  
+     top: 160px;
+    bottom:25px;
+    width: 10%;
+     opacity: 0.5;
+     position: fixed;
+}
+
+
+.aside {
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+    position: fixed;
+    top: 160px;
+    bottom: 25px;
+    width: 10%;
+    background-image: url('https://d.newsweek.com/en/full/1509239/spatula-teamfight-tactics-league-legends.jpg?w=1600&h=1600&q=88&f=c64f990c2bf08c3dfb3205422ba3dcf7'); /* Ruta de la imagen de fondo */
+    background-color: rgba(0, 0, 0, 0.7); 
+    background-blend-mode: overlay;
+    background-position-x: 40px;
+}
+
+.contenido {
+    position: relative; /* Para asegurar que el texto esté posicionado dentro del aside */
+    z-index: 1; /* Coloca el texto por encima de la imagen de fondo */
+}
+
+
+
+.Parrafoaside{
+    opacity: 0.9;
+    text-align: left;
+    font-family: 'Monaco', sans-serif;
+    
+}
+.h2aside{
+    opacity: 0.9;
+    color: coral;
+}
+
+.imgaside{
+    position: absolute;
+     z-index: 1;
+    left: 0;
+}
+
+.enlace {
+    display: inline-block;
+    position: relative;
+}
+
+.enlace .hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 250px;
+}
+
+.enlace:hover .hover {
+    display: block;
+}
+
+section{
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c2d19d4a-860f-4736-aaee-9671677c1bee/ddd8djc-68b444e6-738d-4428-822c-aac14e42c134.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2MyZDE5ZDRhLTg2MGYtNDczNi1hYWVlLTk2NzE2NzdjMWJlZVwvZGRkOGRqYy02OGI0NDRlNi03MzhkLTQ0MjgtODIyYy1hYWMxNGU0MmMxMzQuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.o-JsRdvyVURnwfQIS1C0b20UgfotvKZ3I6HR56_gDOY');
+    background-color: rgba(0, 0, 0, 0.7);  
+    background-blend-mode: overlay;
+    text-align: center;
+    overflow-y: auto;
+    padding: 1%;
+    color: coral; 
+    position: fixed;
+    top: 160px;
+    left: 11%;
+    bottom: 30px;
+    width: 89%;
+    color: wheat;
+}
+
+
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+.sectionmain a:hover{
+    color: cyan;
+    
+}
+
+.h2titulos{
+     text-align: center;
+     font-family: Impact, sans-serif;
+     font-size: 30px
+}
+
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom:  0;
+    width: 100%;
+    height: 30px;
+    background-color: grey; 
+    text-align: center;
+    color: white; 
+}
